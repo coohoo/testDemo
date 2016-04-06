@@ -118,6 +118,8 @@
         default:
             break;
     }
+    
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 
