@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  AuthorizeViewController.h
 //  HZLocker
 //
 //  Created by Devond on 16/4/6.
@@ -8,6 +8,6 @@
 
 #import "SuperViewController.h"
 
-@interface HomeViewController : SuperViewController
+@interface AuthorizeViewController : SuperViewController
 
 @end

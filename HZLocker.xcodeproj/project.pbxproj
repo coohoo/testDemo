@@ -15,10 +15,15 @@
 		063B8EE11CB4AFBF00E3AFCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063B8EE01CB4AFBF00E3AFCC /* Assets.xcassets */; };
 		063B8EE41CB4AFBF00E3AFCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063B8EE21CB4AFBF00E3AFCC /* LaunchScreen.storyboard */; };
 		063B8EF21CB4BA5700E3AFCC /* APPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8EF11CB4BA5700E3AFCC /* APPManager.m */; };
-		063B8EF61CB4BAB100E3AFCC /* SuperUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8EF51CB4BAB100E3AFCC /* SuperUIViewController.m */; };
+		063B8EF61CB4BAB100E3AFCC /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8EF51CB4BAB100E3AFCC /* SuperViewController.m */; };
 		063B8F001CB4BC1100E3AFCC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8EFF1CB4BC1100E3AFCC /* HomeViewController.m */; };
 		063B8F071CB4C4DF00E3AFCC /* APPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F061CB4C4DF00E3AFCC /* APPTabBarController.m */; };
 		063B8F0A1CB4C50900E3AFCC /* APPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F091CB4C50900E3AFCC /* APPNavigationController.m */; };
+		063B8F121CB4D1E300E3AFCC /* AuthorizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F111CB4D1E300E3AFCC /* AuthorizeViewController.m */; };
+		063B8F151CB4D1F600E3AFCC /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F141CB4D1F600E3AFCC /* RecordViewController.m */; };
+		063B8F181CB4D20900E3AFCC /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F171CB4D20900E3AFCC /* MineViewController.m */; };
+		063B8F1B1CB4D8FB00E3AFCC /* APPUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F1A1CB4D8FB00E3AFCC /* APPUtil.m */; };
+		063B8F1E1CB4DB7600E3AFCC /* APPEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F1D1CB4DB7600E3AFCC /* APPEnum.m */; };
 		A28C62A6AD405E9A252518DA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F754A12E4B107F04B5C3C39A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -37,8 +42,8 @@
 		063B8EEB1CB4B84400E3AFCC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		063B8EF01CB4BA5700E3AFCC /* APPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPManager.h; sourceTree = "<group>"; };
 		063B8EF11CB4BA5700E3AFCC /* APPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPManager.m; sourceTree = "<group>"; };
-		063B8EF41CB4BAB100E3AFCC /* SuperUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperUIViewController.h; sourceTree = "<group>"; };
-		063B8EF51CB4BAB100E3AFCC /* SuperUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperUIViewController.m; sourceTree = "<group>"; };
+		063B8EF41CB4BAB100E3AFCC /* SuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperViewController.h; sourceTree = "<group>"; };
+		063B8EF51CB4BAB100E3AFCC /* SuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperViewController.m; sourceTree = "<group>"; };
 		063B8EFE1CB4BC1100E3AFCC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		063B8EFF1CB4BC1100E3AFCC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		063B8F051CB4C4DF00E3AFCC /* APPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPTabBarController.h; sourceTree = "<group>"; };
@@ -46,6 +51,16 @@
 		063B8F081CB4C50900E3AFCC /* APPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPNavigationController.h; sourceTree = "<group>"; };
 		063B8F091CB4C50900E3AFCC /* APPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPNavigationController.m; sourceTree = "<group>"; };
 		063B8F0F1CB4CE1200E3AFCC /* APPDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPDefine.h; sourceTree = "<group>"; };
+		063B8F101CB4D1E300E3AFCC /* AuthorizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizeViewController.h; sourceTree = "<group>"; };
+		063B8F111CB4D1E300E3AFCC /* AuthorizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizeViewController.m; sourceTree = "<group>"; };
+		063B8F131CB4D1F600E3AFCC /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		063B8F141CB4D1F600E3AFCC /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		063B8F161CB4D20900E3AFCC /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		063B8F171CB4D20900E3AFCC /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		063B8F191CB4D8FB00E3AFCC /* APPUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPUtil.h; sourceTree = "<group>"; };
+		063B8F1A1CB4D8FB00E3AFCC /* APPUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPUtil.m; sourceTree = "<group>"; };
+		063B8F1C1CB4DB7600E3AFCC /* APPEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPEnum.h; sourceTree = "<group>"; };
+		063B8F1D1CB4DB7600E3AFCC /* APPEnum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPEnum.m; sourceTree = "<group>"; };
 		0819798B0E8B5C3BFB91EF75 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9215D97E4070822D2428877E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F754A12E4B107F04B5C3C39A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,8 +134,8 @@
 				063B8ED51CB4AFBF00E3AFCC /* AppDelegate.m */,
 				063B8EF01CB4BA5700E3AFCC /* APPManager.h */,
 				063B8EF11CB4BA5700E3AFCC /* APPManager.m */,
-				063B8EF41CB4BAB100E3AFCC /* SuperUIViewController.h */,
-				063B8EF51CB4BAB100E3AFCC /* SuperUIViewController.m */,
+				063B8EF41CB4BAB100E3AFCC /* SuperViewController.h */,
+				063B8EF51CB4BAB100E3AFCC /* SuperViewController.m */,
 				063B8F051CB4C4DF00E3AFCC /* APPTabBarController.h */,
 				063B8F061CB4C4DF00E3AFCC /* APPTabBarController.m */,
 				063B8F081CB4C50900E3AFCC /* APPNavigationController.h */,
@@ -141,6 +156,8 @@
 		063B8F011CB4C39F00E3AFCC /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				063B8F161CB4D20900E3AFCC /* MineViewController.h */,
+				063B8F171CB4D20900E3AFCC /* MineViewController.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -148,6 +165,8 @@
 		063B8F021CB4C3DF00E3AFCC /* Record */ = {
 			isa = PBXGroup;
 			children = (
+				063B8F131CB4D1F600E3AFCC /* RecordViewController.h */,
+				063B8F141CB4D1F600E3AFCC /* RecordViewController.m */,
 			);
 			path = Record;
 			sourceTree = "<group>";
@@ -155,6 +174,8 @@
 		063B8F031CB4C41700E3AFCC /* Authorize */ = {
 			isa = PBXGroup;
 			children = (
+				063B8F101CB4D1E300E3AFCC /* AuthorizeViewController.h */,
+				063B8F111CB4D1E300E3AFCC /* AuthorizeViewController.m */,
 			);
 			path = Authorize;
 			sourceTree = "<group>";
@@ -163,6 +184,10 @@
 			isa = PBXGroup;
 			children = (
 				063B8F0F1CB4CE1200E3AFCC /* APPDefine.h */,
+				063B8F191CB4D8FB00E3AFCC /* APPUtil.h */,
+				063B8F1A1CB4D8FB00E3AFCC /* APPUtil.m */,
+				063B8F1C1CB4DB7600E3AFCC /* APPEnum.h */,
+				063B8F1D1CB4DB7600E3AFCC /* APPEnum.m */,
 			);
 			path = APPPlus;
 			sourceTree = "<group>";
@@ -315,10 +340,15 @@
 				063B8ED91CB4AFBF00E3AFCC /* ViewController.m in Sources */,
 				063B8F071CB4C4DF00E3AFCC /* APPTabBarController.m in Sources */,
 				063B8ED61CB4AFBF00E3AFCC /* AppDelegate.m in Sources */,
-				063B8EF61CB4BAB100E3AFCC /* SuperUIViewController.m in Sources */,
+				063B8F181CB4D20900E3AFCC /* MineViewController.m in Sources */,
+				063B8EF61CB4BAB100E3AFCC /* SuperViewController.m in Sources */,
 				063B8ED31CB4AFBF00E3AFCC /* main.m in Sources */,
 				063B8EDF1CB4AFBF00E3AFCC /* HZLocker.xcdatamodeld in Sources */,
+				063B8F121CB4D1E300E3AFCC /* AuthorizeViewController.m in Sources */,
+				063B8F151CB4D1F600E3AFCC /* RecordViewController.m in Sources */,
 				063B8F0A1CB4C50900E3AFCC /* APPNavigationController.m in Sources */,
+				063B8F1E1CB4DB7600E3AFCC /* APPEnum.m in Sources */,
+				063B8F1B1CB4D8FB00E3AFCC /* APPUtil.m in Sources */,
 				063B8F001CB4BC1100E3AFCC /* HomeViewController.m in Sources */,
 				063B8EF21CB4BA5700E3AFCC /* APPManager.m in Sources */,
 			);

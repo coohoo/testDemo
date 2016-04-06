@@ -16,7 +16,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleDefault];
+    
+    //导航栏颜色
+    [[UINavigationBar appearance] setBarTintColor:DefaultTintColor];
+    [[UINavigationBar appearance] setTranslucent:NO];
+    
+    //返回键颜色
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:
+                                                               [UIColor whiteColor],
+                                                           NSFontAttributeName:[UIFont systemFontOfSize:18]
+                                                           }];
+    
+    
+    
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:
+                                                               [UIColor grayColor],
+                                                           NSFontAttributeName:[UIFont systemFontOfSize:16]
+                                                           }
+                                                forState:UIControlStateDisabled];
+    
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:
+                                                               [UIColor whiteColor],
+                                                           NSFontAttributeName:[UIFont systemFontOfSize:16]
+                                                           }
+                                                forState:UIControlStateNormal];
+    
+//    //去除底部黑线
+//    [UINavigationBar appearance].shadowImage = [UIImage new];
+//    [[UINavigationBar appearance] setBackgroundImage:[DVUtil imageWithColor:[UIColor clearColor] AndSize:CGSizeMake(IPHONE_WIDTH, 1)] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
 }
 
 - (void)didReceiveMemoryWarning {

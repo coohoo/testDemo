@@ -16,7 +16,7 @@ green:((float)((rgbValue & 0x00FF00) >>  8))/255.0 \
 blue:((float)((rgbValue & 0x0000FF) >>  0))/255.0 \
 alpha:1.0]
 
-#define DefaultColor                         RGBFromHex(0x004a27)
+#define DefaultTintColor                     RGBFromHex(0x01a8f4)
 #define DefaultBackGroundColor               RGBFromHex(0xf8f8f8)
 
 #define WS(weakSelf) __weak __typeof(&*self) weakSelf = self;
