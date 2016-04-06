@@ -45,9 +45,6 @@
         make.top.mas_equalTo(backView.mas_bottom).offset(10);
     }];
     
-    
-    
-    
     UISwitch *switchView = [[UISwitch alloc]init];
     [backView addSubview:switchView];
     [switchView addTarget:self action:@selector(switchAction:) forControlEvents:UIControlEventValueChanged];

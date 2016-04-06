@@ -31,6 +31,10 @@
 		063B8F2E1CB4E23D00E3AFCC /* VersionUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F2D1CB4E23D00E3AFCC /* VersionUpdateViewController.m */; };
 		063B8F311CB4E27800E3AFCC /* FeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F301CB4E27800E3AFCC /* FeatureViewController.m */; };
 		063B8F381CB4E36900E3AFCC /* AuthorityPeriodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F371CB4E36900E3AFCC /* AuthorityPeriodViewController.m */; };
+		063B8F3B1CB4FF2E00E3AFCC /* KeySettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F3A1CB4FF2E00E3AFCC /* KeySettingViewController.m */; };
+		063B8F3E1CB5023F00E3AFCC /* ElectronicKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F3D1CB5023F00E3AFCC /* ElectronicKeyViewController.m */; };
+		063B8F411CB5029900E3AFCC /* FingerPrintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F401CB5029900E3AFCC /* FingerPrintViewController.m */; };
+		063B8F441CB502D000E3AFCC /* CombinaSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F431CB502D000E3AFCC /* CombinaSettingViewController.m */; };
 		A28C62A6AD405E9A252518DA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F754A12E4B107F04B5C3C39A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +86,14 @@
 		063B8F301CB4E27800E3AFCC /* FeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeatureViewController.m; sourceTree = "<group>"; };
 		063B8F361CB4E36900E3AFCC /* AuthorityPeriodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorityPeriodViewController.h; sourceTree = "<group>"; };
 		063B8F371CB4E36900E3AFCC /* AuthorityPeriodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorityPeriodViewController.m; sourceTree = "<group>"; };
+		063B8F391CB4FF2E00E3AFCC /* KeySettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeySettingViewController.h; sourceTree = "<group>"; };
+		063B8F3A1CB4FF2E00E3AFCC /* KeySettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeySettingViewController.m; sourceTree = "<group>"; };
+		063B8F3C1CB5023F00E3AFCC /* ElectronicKeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElectronicKeyViewController.h; sourceTree = "<group>"; };
+		063B8F3D1CB5023F00E3AFCC /* ElectronicKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectronicKeyViewController.m; sourceTree = "<group>"; };
+		063B8F3F1CB5029900E3AFCC /* FingerPrintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerPrintViewController.h; sourceTree = "<group>"; };
+		063B8F401CB5029900E3AFCC /* FingerPrintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerPrintViewController.m; sourceTree = "<group>"; };
+		063B8F421CB502D000E3AFCC /* CombinaSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombinaSettingViewController.h; sourceTree = "<group>"; };
+		063B8F431CB502D000E3AFCC /* CombinaSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombinaSettingViewController.m; sourceTree = "<group>"; };
 		0819798B0E8B5C3BFB91EF75 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9215D97E4070822D2428877E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F754A12E4B107F04B5C3C39A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +182,14 @@
 			children = (
 				063B8EFE1CB4BC1100E3AFCC /* HomeViewController.h */,
 				063B8EFF1CB4BC1100E3AFCC /* HomeViewController.m */,
+				063B8F391CB4FF2E00E3AFCC /* KeySettingViewController.h */,
+				063B8F3A1CB4FF2E00E3AFCC /* KeySettingViewController.m */,
+				063B8F3C1CB5023F00E3AFCC /* ElectronicKeyViewController.h */,
+				063B8F3D1CB5023F00E3AFCC /* ElectronicKeyViewController.m */,
+				063B8F3F1CB5029900E3AFCC /* FingerPrintViewController.h */,
+				063B8F401CB5029900E3AFCC /* FingerPrintViewController.m */,
+				063B8F421CB502D000E3AFCC /* CombinaSettingViewController.h */,
+				063B8F431CB502D000E3AFCC /* CombinaSettingViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -301,6 +321,7 @@
 				TargetAttributes = {
 					063B8ECD1CB4AFBF00E3AFCC = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = NETH4M284U;
 					};
 				};
 			};
@@ -391,6 +412,7 @@
 				063B8ED91CB4AFBF00E3AFCC /* ViewController.m in Sources */,
 				063B8F381CB4E36900E3AFCC /* AuthorityPeriodViewController.m in Sources */,
 				063B8F211CB4DFAD00E3AFCC /* PushSettingViewController.m in Sources */,
+				063B8F441CB502D000E3AFCC /* CombinaSettingViewController.m in Sources */,
 				063B8F071CB4C4DF00E3AFCC /* APPTabBarController.m in Sources */,
 				063B8ED61CB4AFBF00E3AFCC /* AppDelegate.m in Sources */,
 				063B8F181CB4D20900E3AFCC /* MineViewController.m in Sources */,
@@ -401,6 +423,7 @@
 				063B8F311CB4E27800E3AFCC /* FeatureViewController.m in Sources */,
 				063B8F151CB4D1F600E3AFCC /* RecordViewController.m in Sources */,
 				063B8F251CB4E08800E3AFCC /* SecurityViewController.m in Sources */,
+				063B8F3B1CB4FF2E00E3AFCC /* KeySettingViewController.m in Sources */,
 				063B8F0A1CB4C50900E3AFCC /* APPNavigationController.m in Sources */,
 				063B8F1E1CB4DB7600E3AFCC /* APPEnum.m in Sources */,
 				063B8F1B1CB4D8FB00E3AFCC /* APPUtil.m in Sources */,
@@ -408,6 +431,8 @@
 				063B8F2E1CB4E23D00E3AFCC /* VersionUpdateViewController.m in Sources */,
 				063B8F001CB4BC1100E3AFCC /* HomeViewController.m in Sources */,
 				063B8EF21CB4BA5700E3AFCC /* APPManager.m in Sources */,
+				063B8F411CB5029900E3AFCC /* FingerPrintViewController.m in Sources */,
+				063B8F3E1CB5023F00E3AFCC /* ElectronicKeyViewController.m in Sources */,
 				063B8F281CB4E1A100E3AFCC /* FeedBackViewContrller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,12 +546,15 @@
 			baseConfigurationReference = 9215D97E4070822D2428877E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = HZLocker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chz.HZLocker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devond.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -535,12 +563,15 @@
 			baseConfigurationReference = 0819798B0E8B5C3BFB91EF75 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = HZLocker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chz.HZLocker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devond.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -7,10 +7,11 @@
 //
 
 #import "HomeViewController.h"
+#import "KeySettingViewController.h"
 
-#import <SystemConfiguration/CaptiveNetwork.h>
+@interface HomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
-@interface HomeViewController ()
+@property (nonatomic, strong)UITableView       *tableView;
 
 @end
 
@@ -18,20 +19,44 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    self.tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    [self.view addSubview:self.tableView];
+    self.tableView.tableFooterView = [[UIView alloc]init];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    self.tableView.separatorInset = UIEdgeInsetsZero;
+    self.tableView.estimatedRowHeight = 68.0;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
 }
 
-- (id)fetchSSIDInfo {
-    NSArray *ifs = (__bridge_transfer id)CNCopySupportedInterfaces();
-    NSLog(@"Supported interfaces: %@", ifs);
-    id info = nil;
-    for (NSString *ifnam in ifs) {
-        info = (__bridge_transfer id)CNCopyCurrentNetworkInfo((__bridge CFStringRef)ifnam);
-        NSLog(@"%@ => %@", ifnam, info);
-        if (info && [info count]) { break; }
-    }
-    return info;
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 6;
 }
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *cellID = @"HomeTableViewCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    [cell setNeedsDisplay];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+    }
+    
+    return cell;
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    KeySettingViewController *keySettingVC = [[KeySettingViewController alloc]init];
+    [keySettingVC setHidesBottomBarWhenPushed:YES];
+    [self.navigationController pushViewController:keySettingVC animated:YES];
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
