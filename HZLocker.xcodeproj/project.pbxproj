@@ -24,6 +24,13 @@
 		063B8F181CB4D20900E3AFCC /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F171CB4D20900E3AFCC /* MineViewController.m */; };
 		063B8F1B1CB4D8FB00E3AFCC /* APPUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F1A1CB4D8FB00E3AFCC /* APPUtil.m */; };
 		063B8F1E1CB4DB7600E3AFCC /* APPEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F1D1CB4DB7600E3AFCC /* APPEnum.m */; };
+		063B8F211CB4DFAD00E3AFCC /* PushSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F201CB4DFAD00E3AFCC /* PushSettingViewController.m */; };
+		063B8F251CB4E08800E3AFCC /* SecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F241CB4E08800E3AFCC /* SecurityViewController.m */; };
+		063B8F281CB4E1A100E3AFCC /* FeedBackViewContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F271CB4E1A100E3AFCC /* FeedBackViewContrller.m */; };
+		063B8F2B1CB4E1E500E3AFCC /* DeviceConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F2A1CB4E1E500E3AFCC /* DeviceConfigViewController.m */; };
+		063B8F2E1CB4E23D00E3AFCC /* VersionUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F2D1CB4E23D00E3AFCC /* VersionUpdateViewController.m */; };
+		063B8F311CB4E27800E3AFCC /* FeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F301CB4E27800E3AFCC /* FeatureViewController.m */; };
+		063B8F381CB4E36900E3AFCC /* AuthorityPeriodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063B8F371CB4E36900E3AFCC /* AuthorityPeriodViewController.m */; };
 		A28C62A6AD405E9A252518DA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F754A12E4B107F04B5C3C39A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +68,20 @@
 		063B8F1A1CB4D8FB00E3AFCC /* APPUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPUtil.m; sourceTree = "<group>"; };
 		063B8F1C1CB4DB7600E3AFCC /* APPEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPEnum.h; sourceTree = "<group>"; };
 		063B8F1D1CB4DB7600E3AFCC /* APPEnum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPEnum.m; sourceTree = "<group>"; };
+		063B8F1F1CB4DFAD00E3AFCC /* PushSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushSettingViewController.h; sourceTree = "<group>"; };
+		063B8F201CB4DFAD00E3AFCC /* PushSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushSettingViewController.m; sourceTree = "<group>"; };
+		063B8F231CB4E08800E3AFCC /* SecurityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityViewController.h; sourceTree = "<group>"; };
+		063B8F241CB4E08800E3AFCC /* SecurityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityViewController.m; sourceTree = "<group>"; };
+		063B8F261CB4E1A100E3AFCC /* FeedBackViewContrller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewContrller.h; sourceTree = "<group>"; };
+		063B8F271CB4E1A100E3AFCC /* FeedBackViewContrller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewContrller.m; sourceTree = "<group>"; };
+		063B8F291CB4E1E500E3AFCC /* DeviceConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceConfigViewController.h; sourceTree = "<group>"; };
+		063B8F2A1CB4E1E500E3AFCC /* DeviceConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceConfigViewController.m; sourceTree = "<group>"; };
+		063B8F2C1CB4E23D00E3AFCC /* VersionUpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionUpdateViewController.h; sourceTree = "<group>"; };
+		063B8F2D1CB4E23D00E3AFCC /* VersionUpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionUpdateViewController.m; sourceTree = "<group>"; };
+		063B8F2F1CB4E27800E3AFCC /* FeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeatureViewController.h; sourceTree = "<group>"; };
+		063B8F301CB4E27800E3AFCC /* FeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeatureViewController.m; sourceTree = "<group>"; };
+		063B8F361CB4E36900E3AFCC /* AuthorityPeriodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorityPeriodViewController.h; sourceTree = "<group>"; };
+		063B8F371CB4E36900E3AFCC /* AuthorityPeriodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorityPeriodViewController.m; sourceTree = "<group>"; };
 		0819798B0E8B5C3BFB91EF75 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9215D97E4070822D2428877E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F754A12E4B107F04B5C3C39A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,8 +177,20 @@
 		063B8F011CB4C39F00E3AFCC /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				063B8F351CB4E34300E3AFCC /* AuthorityPeriod */,
+				063B8F221CB4E07200E3AFCC /* SecuritySetting */,
 				063B8F161CB4D20900E3AFCC /* MineViewController.h */,
 				063B8F171CB4D20900E3AFCC /* MineViewController.m */,
+				063B8F1F1CB4DFAD00E3AFCC /* PushSettingViewController.h */,
+				063B8F201CB4DFAD00E3AFCC /* PushSettingViewController.m */,
+				063B8F261CB4E1A100E3AFCC /* FeedBackViewContrller.h */,
+				063B8F271CB4E1A100E3AFCC /* FeedBackViewContrller.m */,
+				063B8F291CB4E1E500E3AFCC /* DeviceConfigViewController.h */,
+				063B8F2A1CB4E1E500E3AFCC /* DeviceConfigViewController.m */,
+				063B8F2C1CB4E23D00E3AFCC /* VersionUpdateViewController.h */,
+				063B8F2D1CB4E23D00E3AFCC /* VersionUpdateViewController.m */,
+				063B8F2F1CB4E27800E3AFCC /* FeatureViewController.h */,
+				063B8F301CB4E27800E3AFCC /* FeatureViewController.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -197,6 +230,24 @@
 			children = (
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		063B8F221CB4E07200E3AFCC /* SecuritySetting */ = {
+			isa = PBXGroup;
+			children = (
+				063B8F231CB4E08800E3AFCC /* SecurityViewController.h */,
+				063B8F241CB4E08800E3AFCC /* SecurityViewController.m */,
+			);
+			path = SecuritySetting;
+			sourceTree = "<group>";
+		};
+		063B8F351CB4E34300E3AFCC /* AuthorityPeriod */ = {
+			isa = PBXGroup;
+			children = (
+				063B8F361CB4E36900E3AFCC /* AuthorityPeriodViewController.h */,
+				063B8F371CB4E36900E3AFCC /* AuthorityPeriodViewController.m */,
+			);
+			path = AuthorityPeriod;
 			sourceTree = "<group>";
 		};
 		55B76FD25DFF2BCACDBAB2C1 /* Pods */ = {
@@ -338,6 +389,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				063B8ED91CB4AFBF00E3AFCC /* ViewController.m in Sources */,
+				063B8F381CB4E36900E3AFCC /* AuthorityPeriodViewController.m in Sources */,
+				063B8F211CB4DFAD00E3AFCC /* PushSettingViewController.m in Sources */,
 				063B8F071CB4C4DF00E3AFCC /* APPTabBarController.m in Sources */,
 				063B8ED61CB4AFBF00E3AFCC /* AppDelegate.m in Sources */,
 				063B8F181CB4D20900E3AFCC /* MineViewController.m in Sources */,
@@ -345,12 +398,17 @@
 				063B8ED31CB4AFBF00E3AFCC /* main.m in Sources */,
 				063B8EDF1CB4AFBF00E3AFCC /* HZLocker.xcdatamodeld in Sources */,
 				063B8F121CB4D1E300E3AFCC /* AuthorizeViewController.m in Sources */,
+				063B8F311CB4E27800E3AFCC /* FeatureViewController.m in Sources */,
 				063B8F151CB4D1F600E3AFCC /* RecordViewController.m in Sources */,
+				063B8F251CB4E08800E3AFCC /* SecurityViewController.m in Sources */,
 				063B8F0A1CB4C50900E3AFCC /* APPNavigationController.m in Sources */,
 				063B8F1E1CB4DB7600E3AFCC /* APPEnum.m in Sources */,
 				063B8F1B1CB4D8FB00E3AFCC /* APPUtil.m in Sources */,
+				063B8F2B1CB4E1E500E3AFCC /* DeviceConfigViewController.m in Sources */,
+				063B8F2E1CB4E23D00E3AFCC /* VersionUpdateViewController.m in Sources */,
 				063B8F001CB4BC1100E3AFCC /* HomeViewController.m in Sources */,
 				063B8EF21CB4BA5700E3AFCC /* APPManager.m in Sources */,
+				063B8F281CB4E1A100E3AFCC /* FeedBackViewContrller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
